@@ -1,0 +1,122 @@
+/* ===================== Global Styles ===================== */
+body {
+    background-color: #F5E8D0; /* Light cream background */
+    color: #2E2E2E; /* Dark text */
+    font-family: 'Georgia', serif; /* Serif font for fantasy feel */
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 1200px; /* Center content */
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* ===================== Header ===================== */
+header {
+    text-align: center;
+    background-color: #6E4C35; /* Brown background */
+    color: #F5E8D0; /* Light text */
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* ===================== Navigation ===================== */
+nav ul {
+    display: flex; /* Horizontal layout */
+    justify-content: center;
+    list-style-type: none;
+    background-color: #3B5D50; /* Dark green background */
+    padding: 0.75rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #F5E8D0; /* Light text */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #D2A679; /* Gold on hover */
+}
+
+/* ===================== Content Sections ===================== */
+main section {
+    background-color: #7E8D69; /* Green background */
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+main section h2 {
+    color: #F5E8D0;
+    margin-top: 0;
+}
+
+/* ===================== Sidebar ===================== */
+aside {
+    background-color: #D2A679; /* Gold background */
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    color: #2E2E2E;
+}
+
+/* ===================== Footer ===================== */
+footer {
+    background-color: #6E4C35;
+    color: #F5E8D0;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #D2A679;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ===================== Media Elements ===================== */
+iframe {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* ===================== Responsive Styles ===================== */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+}
